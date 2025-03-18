@@ -14,11 +14,18 @@ function capitalize(string){
     console.log(newWord);
 }
 
+function lastLetter(word){
+    let finalChar = word[word.length-1];
+    
+
+    console.log(finalChar);
+}
+
 
 add7(400);
 multiply(4,10);
 capitalize("fart");
 capitalize("FART");
 capitalize("fArT");
-
-
+lastLetter("abcdef");
+lastLetter("BombaCludggG!");
